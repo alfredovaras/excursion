@@ -11,7 +11,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #000;
   color: #333;
   padding: 20px;
 }
@@ -26,8 +26,12 @@ header {
 
 /* Styling for the header h1 */
 header h1 {
+  font-family: Verdana, sans-serif;  /* Font family set to Verdana */
+  font-weight: normal;               /* Font weight set to normal */
+  font-size: 50px;                   /* Font size set to 50px */
+  color: white;                      /* Color set to white */
+  text-align: center;                /* Text is centered */
   margin: 0;
-  font-size: 2.5em;
 }
 
 /* Styling for the main content */
@@ -35,10 +39,11 @@ main {
   margin-top: 20px;
 }
 
-/* Styling for links */
+* Styling for links */
 a {
-  color: #0066cc;
-  text-decoration: none;
+    color: aquamarine;                  /* Color set to Aquamarine */
+    font-size: 16px;                    /* Font size set to 16px */
+    text-decoration: none;
 }
 
 a:hover {
